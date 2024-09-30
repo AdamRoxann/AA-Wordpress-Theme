@@ -16,13 +16,13 @@
     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navbarNav">
         <?php
             wp_nav_menu(
                 array(
                     'theme_location' => 'top-menu',
                     'container' => 'ul',
-                    'menu_class' => 'navbar-nav',
+                    'menu_class' => 'navbar-nav w-100 justify-content-between',
                     // 'add_li_class' => 'nav-item'
                 )
             );
