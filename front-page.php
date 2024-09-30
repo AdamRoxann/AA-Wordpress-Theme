@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="mt-3">
+<div class="">
     <?php get_template_part('includes/section', 'content'); ?>
 </div>
 
