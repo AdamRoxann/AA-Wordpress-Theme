@@ -25,6 +25,36 @@
     display: block !important;
 }
 
+.date-news {
+    font-size: 28px;
+}
+
+.title-news {
+    font-size: 58px;
+}
+
+.desc-news {
+    font-size: 28px;
+}
+
+.also-featured {
+    font-size: 36px;
+}
+
+.latest-post {
+    font-size: 26px;
+}
+
+.achievement-header {
+    font-size: 42px;
+}
+.video-header {
+    font-size: 42px;
+}
+.gallery-header {
+    font-size: 42px;
+}
+
 .article-pagination .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     transform: translateX(-50%) translateY(0px);
 }
