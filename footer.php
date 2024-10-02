@@ -25,6 +25,7 @@
                         wp_nav_menu(
                         array(
                         'theme_location' => 'footer-menu',
+                        'container' => 'ul',
                         'menu_class' => 'list-unstyled d-flex justify-content-between',
                         )
                     );
