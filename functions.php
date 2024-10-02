@@ -62,7 +62,7 @@ function add_additional_class_on_a($classes, $item, $args) {
             $atts['class'] .= ' active'; // Add 'active' class if it's the current page
         }
     }
-    if('footer-menu-1' === $args->theme_location) {
+    if('footer-menu' === $args->theme_location) {
         if (empty($atts['href'])) {
             $atts['href'] = !empty($item->url) ? $item->url : '#';
         }

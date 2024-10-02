@@ -24,7 +24,7 @@
                         <?php
                             wp_nav_menu(
                             array(
-                            'theme_location' => 'footer-menu-1',
+                            'theme_location' => 'footer-menu',
                             'menu_class' => 'list-unstyled',
                         )
                     );
