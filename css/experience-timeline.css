@@ -79,7 +79,7 @@
   }
   
   .my-experience li {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     /* border-left: 2px solid #fff; */
     /* border-left: 2px solid #4e5ed3; */
     position: relative;
@@ -107,7 +107,7 @@
     color: white;
     /* padding: 0.5rem; */
     border-radius: 4px;
-    font-weight: bold;
+    /* font-weight: bold; */
     display: inline-block;
   }
   
