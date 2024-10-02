@@ -22,7 +22,7 @@
                 array(
                     'theme_location' => 'top-menu',
                     'container' => 'ul',
-                    'menu_class' => 'navbar-nav w-100 justify-content-between',
+                    'menu_class' => 'navbar-nav w-100 justify-content-between align-items-center',
                     // 'add_li_class' => 'nav-item'
                 )
             );
