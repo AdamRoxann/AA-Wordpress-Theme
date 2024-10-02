@@ -129,4 +129,7 @@
         left: -9px;
         top: 0px;
       }
+      .my-experience li:last-child:before {
+        left: -6px;
+      }
   }
