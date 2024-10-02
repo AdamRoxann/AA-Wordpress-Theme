@@ -2,7 +2,7 @@
 
     <footer class="footer mt-auto py-3 primary-background">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center align-items-center">
                 <div class="col">
                     <div class="sosmed-mobile">
                             <a class="text-decoration-none" href="#" target="_blank">
@@ -16,7 +16,7 @@
                             </a>
                         </div>
                 </div>
-                <div class="col">
+                <div class="col-8">
                     <h1 class="footer-title text-uppercase"><?php echo get_bloginfo( 'name' ); ?></h1>
                 </div>
             </div>

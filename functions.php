@@ -67,7 +67,7 @@ function add_additional_class_on_a($classes, $item, $args) {
             $atts['href'] = !empty($item->url) ? $item->url : '#';
         }
         
-        $atts['class'] = 'nav-link footer-menu';
+        $atts['class'] = 'nav-link d-inline-block footer-menu';
     }
     return $atts;
 }
