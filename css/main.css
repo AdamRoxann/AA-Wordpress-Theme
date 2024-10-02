@@ -116,9 +116,13 @@
     background: #4D99B7;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .navbar-nav {
-        font-size: 18px !important;
+        font-size: 9px !important;
+    }
+    .navbar-nav a {
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
 
