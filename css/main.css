@@ -126,6 +126,31 @@
     }
 }
 
+@media screen and (max-width: 992px) {
+    .footer-title {
+        font-size: 34px;
+        font-weight: 200;
+        letter-spacing: 3px !important;
+    }
+    
+    .linked-footer {
+        width: 48px !important;
+    }
+    
+    .insta-footer {
+        width: 41px !important;
+    }
+    
+    .youtube-footer {
+        width: 56px !important;
+    }
+    
+    .footer-menu {
+        font-size: 16px !important;
+        font-weight: 600;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .date-news {
         font-size: 28px;
