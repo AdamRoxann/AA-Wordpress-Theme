@@ -20,7 +20,7 @@
                     <h1 class="footer-title text-uppercase"><?php echo get_bloginfo( 'name' ); ?></h1>
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center footer-bottom-menu">
                     <?php
                         wp_nav_menu(
                         array(
