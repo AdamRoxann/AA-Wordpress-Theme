@@ -26,9 +26,10 @@
                         array(
                         'theme_location' => 'footer-menu',
                         'menu_class' => 'list-unstyled d-flex justify-content-between',
-                    )
+                        )
                     );
-                </div>
+                    ?>
+            </div>
             </div>
         </div>
     </footer>
