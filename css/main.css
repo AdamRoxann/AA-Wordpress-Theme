@@ -127,6 +127,38 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .date-news {
+        font-size: 24px;
+    }
+    
+    .title-news {
+        font-size: 48px;
+    }
+    
+    .desc-news {
+        font-size: 24px;
+    }
+    
+    .achievement-header {
+        font-size: 42px;
+    }
+    .video-header {
+        font-size: 42px;
+    }
+    .gallery-header {
+        font-size: 42px;
+    }
+    
+    .art-desc {
+        font-size: 18px;
+    }
+    
+    .art-title {
+        font-size: 26px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .footer-title {
         font-size: 34px;
@@ -150,46 +182,91 @@
         font-size: 16px !important;
         font-weight: 600;
     }
-}
 
-@media screen and (max-width: 768px) {
-    .date-news {
-        font-size: 28px;
-    }
-    
-    .title-news {
-        font-size: 58px;
-    }
-    
-    .desc-news {
-        font-size: 28px;
-    }
-    
     .also-featured {
-        font-size: 36px;
+        font-size: 32px;
     }
     
     .latest-post {
-        font-size: 26px;
+        font-size: 24px;
+    }
+
+    .date-news {
+        font-size: 18px;
+    }
+    
+    .title-news {
+        font-size: 36px;
+    }
+    
+    .desc-news {
+        font-size: 18px;
     }
     
     .achievement-header {
-        font-size: 42px;
+        font-size: 36px;
     }
     .video-header {
-        font-size: 42px;
+        font-size: 36px;
     }
     .gallery-header {
-        font-size: 42px;
+        font-size: 36px;
     }
-    
+
     .art-desc {
-        font-size: 26px;
+        font-size: 12px;
     }
     
     .art-title {
-        font-size: 42px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .article-desc {
+        font-size: 14px;
+    }
+    .date-news {
+        font-size: 18px;
+    }
+    
+    .title-news {
+        font-size: 28px;
+    }
+    
+    .desc-news {
+        font-size: 18px;
+    }
+    
+    .also-featured {
+        font-size: 28px;
+    }
+    
+    .latest-post {
+        font-size: 18px;
+    }
+    
+    .achievement-header {
+        font-size: 28px;
+    }
+    .video-header {
+        font-size: 28px;
+    }
+    .gallery-header {
+        font-size: 28px;
+    }
+    
+    .art-desc {
+        font-size: 18px;
+    }
+    
+    .art-title {
+        font-size: 32px;
     }   
+
+    :where(.wp-block-columns.is-layout-flex) {
+        gap: 0;
+    }
 
     .footer .container {
         padding-top: 20px;
@@ -244,5 +321,49 @@
 }
 
 @media screen and (max-width: 425px) {
+    .article-desc {
+        font-size: 12px;
+    }
+
+    .date-news {
+        font-size: 12px;
+    }
     
+    .title-news {
+        font-size: 20px;
+    }
+    
+    .desc-news {
+        font-size: 12px;
+    }
+    
+    .also-featured {
+        font-size: 20px;
+    }
+    
+    .latest-post {
+        font-size: 12px;
+    }
+
+    .separator {
+        margin-top: 0.2rem;
+    }
+    
+    .achievement-header {
+        font-size: 24px;
+    }
+    .video-header {
+        font-size: 24px;
+    }
+    .gallery-header {
+        font-size: 24px;
+    }
+    
+    .art-desc {
+        font-size: 12px;
+    }
+    
+    .art-title {
+        font-size: 24px;
+    }   
 }
