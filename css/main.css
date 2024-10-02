@@ -85,6 +85,7 @@
     font-size: 48px;
     font-weight: 200;
     letter-spacing: 3px !important;
+    margin: 0;
 }
 
 .linked-footer {
@@ -196,25 +197,25 @@
     }
     
     .footer-title {
-        font-size: 48px;
+        font-size: 24px;
         font-weight: 200;
         letter-spacing: 3px !important;
     }
     
     .linked-footer {
-        width: 68px !important;
+        width: 40px !important;
     }
     
     .insta-footer {
-        width: 56px !important;
+        width: 32px !important;
     }
     
     .youtube-footer {
-        width: 70px !important;
+        width: 36px !important;
     }
     
     .footer-menu {
-        font-size: 24px !important;
+        font-size: 12px !important;
         font-weight: 600;
     }
 }
