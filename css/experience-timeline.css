@@ -26,6 +26,9 @@
     
     /* Move scrollbar to the left */
     direction: rtl;
+    
+    /* Add padding to simulate margin between scrollbar and content */
+    padding-left: 10px;
 }
 
 /* Reverse direction of the content back to normal (LTR) */
@@ -37,6 +40,7 @@
 .my-experience .wrapper::-webkit-scrollbar {
     width: 6px; /* Same width as before */
     background-color: #898989; /* Track color */
+    margin-left: 5px; /* Simulate padding/margin effect */
 }
 
 .my-experience .wrapper::-webkit-scrollbar-thumb {
