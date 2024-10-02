@@ -47,7 +47,7 @@
     /* Track color (optional) */
     border-radius: 10px;
     position: relative;
-    background-color: #898989;
+    background-color: #fff;
   }
 
   /* Create a fake track wrapper to restrict the height of the visible scrollbar */
@@ -84,7 +84,7 @@
     /* border-left: 2px solid #4e5ed3; */
     position: relative;
     /* padding-left: 20px; */
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
   /* .my-experience li:before {
     content: "";
