@@ -2,7 +2,7 @@
 
     <footer class="footer mt-auto py-3 primary-background">
         <div class="container">
-            <div class="row justify-content-center align-items-center text-center mb-4">
+            <div class="row footer-first justify-content-center align-items-center text-center mb-4">
                 <div class="col-lg-4 col-sm-12">
                     <div class="sosmed-mobile">
                             <a class="text-decoration-none" href="#" target="_blank">
