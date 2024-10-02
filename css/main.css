@@ -129,40 +129,40 @@
 
 @media screen and (max-width: 1024px) {
     .date-news {
-        font-size: 24px;
+        font-size: 24px !important;
     }
     
     .title-news {
-        font-size: 48px;
+        font-size: 48px !important;
     }
     
     .desc-news {
-        font-size: 24px;
+        font-size: 24px !important;
     }
     
     .achievement-header {
-        font-size: 42px;
+        font-size: 42px !important;
     }
     .video-header {
-        font-size: 42px;
+        font-size: 42px !important;
     }
     .gallery-header {
-        font-size: 42px;
+        font-size: 42px !important;
     }
     
     .art-desc {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     
     .art-title {
-        font-size: 26px;
+        font-size: 26px !important;
     }
 }
 
 @media screen and (max-width: 992px) {
     .footer-title {
-        font-size: 34px;
-        font-weight: 200;
+        font-size: 34px !important;
+        font-weight: 200 !important;
         letter-spacing: 3px !important;
     }
     
@@ -180,92 +180,92 @@
     
     .footer-menu {
         font-size: 16px !important;
-        font-weight: 600;
+        font-weight: 600 !important;
     }
 
     .also-featured {
-        font-size: 32px;
+        font-size: 32px !important;
     }
     
     .latest-post {
-        font-size: 24px;
+        font-size: 24px !important;
     }
 
     .date-news {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     
     .title-news {
-        font-size: 36px;
+        font-size: 36px !important;
     }
     
     .desc-news {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     
     .achievement-header {
-        font-size: 36px;
+        font-size: 36px !important;
     }
     .video-header {
-        font-size: 36px;
+        font-size: 36px !important;
     }
     .gallery-header {
-        font-size: 36px;
+        font-size: 36px !important;
     }
 
     .art-desc {
-        font-size: 12px;
+        font-size: 12px !important;
     }
     
     .art-title {
-        font-size: 24px;
+        font-size: 24px !important;
     }
 }
 
 @media screen and (max-width: 768px) {
     .article-desc {
-        font-size: 14px;
+        font-size: 14px !important;
     }
     .date-news {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     
     .title-news {
-        font-size: 28px;
+        font-size: 28px !important;
     }
     
     .desc-news {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     
     .also-featured {
-        font-size: 28px;
+        font-size: 28px !important;
     }
     
     .latest-post {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     
     .achievement-header {
-        font-size: 28px;
+        font-size: 28px !important;
     }
     .video-header {
-        font-size: 28px;
+        font-size: 28px !important;
     }
     .gallery-header {
-        font-size: 28px;
+        font-size: 28px !important;
     }
     
     .art-desc {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     
     .art-title {
-        font-size: 32px;
+        font-size: 32px !important;
     }   
 
     :where(.wp-block-columns.is-layout-flex) {
-        gap: 0;
+        gap: 0 !important;
     }
 
     .footer .container {
@@ -302,7 +302,7 @@
         flex-direction: column-reverse;
     }
     .footer-title {
-        margin-bottom: 8px;
+        margin-bottom: 8px !important;
     }
 }
 
@@ -322,48 +322,48 @@
 
 @media screen and (max-width: 425px) {
     .article-desc {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .date-news {
-        font-size: 12px;
+        font-size: 12px !important;
     }
     
     .title-news {
-        font-size: 20px;
+        font-size: 20px !important;
     }
     
     .desc-news {
-        font-size: 12px;
+        font-size: 12px !important;
     }
     
     .also-featured {
-        font-size: 20px;
+        font-size: 20px !important;
     }
     
     .latest-post {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .separator {
-        margin-top: 0.2rem;
+        margin-top: 0.2rem !important;
     }
     
     .achievement-header {
-        font-size: 24px;
+        font-size: 24px !important;
     }
     .video-header {
-        font-size: 24px;
+        font-size: 24px !important;
     }
     .gallery-header {
-        font-size: 24px;
+        font-size: 24px !important;
     }
     
     .art-desc {
-        font-size: 12px;
+        font-size: 12px !important;
     }
     
     .art-title {
-        font-size: 24px;
+        font-size: 24px !important;
     }   
 }
