@@ -29,10 +29,10 @@
     transform: translateX(-50%) translateY(0px);
 }
 
-.article-pagination .swiper-pagination-bullet {
+.swiper-pagination-bullet {
     background: #dbd7d7;
 }
 
-.article-pagination .swiper-pagination-bullet-active {
+.swiper-pagination-bullet-active {
     background: #4D99B7;
 }
