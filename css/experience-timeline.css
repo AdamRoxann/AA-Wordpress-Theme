@@ -24,6 +24,7 @@
     border-radius: 15px;
     max-height: 330px;
     overflow-y: scroll;
+    direction: rtl;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
@@ -68,6 +69,10 @@
   .my-experience .sessions {
     margin-top: 2rem;
     position: relative;
+  }
+
+  .my-experience .wrapper ul {
+    direction: ltr; /* Content stays left to right */
   }
   
   .my-experience li {
