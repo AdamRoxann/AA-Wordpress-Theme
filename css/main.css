@@ -160,6 +160,10 @@
 }
 
 @media screen and (max-width: 992px) {
+    .bottom-excerpt {
+        margin-bottom: 1.5rem !important;
+    }
+
     .footer-title {
         font-size: 34px !important;
         font-weight: 200 !important;
@@ -219,6 +223,10 @@
     
     .art-title {
         font-size: 24px !important;
+    }
+
+    .advanced-group-margin {
+        margin-top: 1rem !important;
     }
 }
 
