@@ -79,3 +79,51 @@
 .swiper-pagination-bullet-active {
     background: #4D99B7;
 }
+
+@media screen and (max-width: 768px) {
+    .date-news {
+        font-size: 28px;
+    }
+    
+    .title-news {
+        font-size: 58px;
+    }
+    
+    .desc-news {
+        font-size: 28px;
+    }
+    
+    .also-featured {
+        font-size: 36px;
+    }
+    
+    .latest-post {
+        font-size: 26px;
+    }
+    
+    .achievement-header {
+        font-size: 42px;
+    }
+    .video-header {
+        font-size: 42px;
+    }
+    .gallery-header {
+        font-size: 42px;
+    }
+    
+    .art-desc {
+        font-size: 26px;
+    }
+    
+    .art-title {
+        font-size: 42px;
+    }   
+}
+
+@media screen and (max-width: 490px) {
+    
+}
+
+@media screen and (max-width: 425px) {
+    
+}

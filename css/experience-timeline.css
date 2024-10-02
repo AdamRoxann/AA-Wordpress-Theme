@@ -49,25 +49,6 @@
     position: relative;
     background-color: #fff;
   }
-
-  /* Create a fake track wrapper to restrict the height of the visible scrollbar */
-  .my-experience .wrapper::before, .my-experience .wrapper::after {
-    content: '';
-    position: absolute;
-    left: 100%; /* Move it to the right of the scroll container */
-    width: 10px;
-    height: 30%; /* This is where we control the scrollbar size (e.g., 30% of the height) */
-    background: #fff; /* Color that matches the container background */
-    z-index: 10;
-  }
-
-  .my-experience .wrapper::before {
-    top: 0; /* Top covering part of the scrollbar */
-  }
-
-  .my-experience .wrapper::after {
-    bottom: 0; /* Bottom covering part of the scrollbar */
-  }
   
   .my-experience .sessions {
     /* margin-top: 2rem; */
