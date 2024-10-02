@@ -10,7 +10,7 @@
     align-items: center;
     padding: 0 1rem;
     /* background: #f4f7fb; */
-    background-color: #111;
+    background-color: #545454;
     padding: 0rem 0;
     color: #fff;
   }
@@ -18,7 +18,7 @@
   .my-experience .wrapper {
     border-radius: 8%;
     /* background: #fff; */
-    background-color: #111;
+    background-color: #545454;
     color: #fff;
     padding: 1rem 2rem;
     border-radius: 15px;
