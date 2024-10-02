@@ -8,6 +8,8 @@ function load_css(){
 	wp_enqueue_style('main');
     wp_register_style('custom', get_template_directory_uri().'/css/custom.css', array(), false, 'all');
 	wp_enqueue_style('custom');
+    wp_register_style('experience', get_template_directory_uri().'/css/experience-timeline.css', array(), false, 'all');
+	wp_enqueue_style('experience');
     wp_enqueue_style( 'aos', get_template_directory_uri().'/css/aos.css', false, 'all');	
 }
 
