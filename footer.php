@@ -2,7 +2,7 @@
 
     <footer class="footer mt-auto py-3 primary-background">
         <div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center text-center">
                 <div class="col">
                     <div class="sosmed-mobile">
                             <a class="text-decoration-none" href="#" target="_blank">
@@ -20,16 +20,14 @@
                     <h1 class="footer-title text-uppercase"><?php echo get_bloginfo( 'name' ); ?></h1>
                 </div>
             </div>
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="col">
-                        <?php
-                            wp_nav_menu(
-                            array(
-                            'theme_location' => 'footer-menu',
-                            'menu_class' => 'list-unstyled',
-                        )
+            <div class="d-flex justify-content-between align-items-center text-center">
+                    <?php
+                        wp_nav_menu(
+                        array(
+                        'theme_location' => 'footer-menu',
+                        'menu_class' => 'list-unstyled d-flex justify-content-between',
+                    )
                     );
-                ?>
                 </div>
             </div>
         </div>
