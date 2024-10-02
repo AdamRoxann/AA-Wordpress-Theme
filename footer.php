@@ -20,13 +20,13 @@
                     <h1 class="footer-title text-uppercase"><?php echo get_bloginfo( 'name' ); ?></h1>
                 </div>
             </div>
-            <div class="d-flex justify-content-center align-items-center text-center">
+            <div class="text-center">
                     <?php
                         wp_nav_menu(
                         array(
                         'theme_location' => 'footer-menu',
                         'container' => 'ul',
-                        'menu_class' => 'list-unstyled',
+                        'menu_class' => 'list-unstyled d-flex justify-content-evenly',
                         )
                     );
                     ?>
