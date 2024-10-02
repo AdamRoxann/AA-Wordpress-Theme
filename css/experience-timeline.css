@@ -6,7 +6,7 @@
   .my-experience .container {
     border-radius: 15px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     padding: 0 1rem;
     /* background: #f4f7fb; */
@@ -28,7 +28,7 @@
     margin-left: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
   }
 
   .my-experience .wrapper::-webkit-scrollbar {
