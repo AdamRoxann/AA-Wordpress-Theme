@@ -20,7 +20,7 @@
                     <h1 class="footer-title text-uppercase"><?php echo get_bloginfo( 'name' ); ?></h1>
                 </div>
             </div>
-            <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-between align-items-center">
                         <?php
                             wp_nav_menu(
                             array(

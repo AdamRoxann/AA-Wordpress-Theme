@@ -45,6 +45,9 @@ function add_additional_class_on_li($classes, $item, $args) {
     if('top-menu' === $args->theme_location) {
         $classes[] = 'nav-item';
     }
+    if('footer-menu' === $args->theme_location) {
+        $classes[] = 'nav-item d-inline-block';
+    }
     return $classes;
 }
 add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
@@ -67,7 +70,7 @@ function add_additional_class_on_a($classes, $item, $args) {
             $atts['href'] = !empty($item->url) ? $item->url : '#';
         }
         
-        $atts['class'] = 'nav-link d-inline-block footer-menu';
+        $atts['class'] = 'nav-link footer-menu';
     }
     return $atts;
 }
