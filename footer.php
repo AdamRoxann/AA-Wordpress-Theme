@@ -3,7 +3,7 @@
     <footer class="footer mt-auto py-3 primary-background">
         <div class="container">
             <div class="row footer-first justify-content-center align-items-center text-center mb-4">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-sm-4">
                     <div class="sosmed-mobile">
                             <a class="text-decoration-none" href="#" target="_blank">
                                 <img width="36" class="linked-footer" src="<?php bloginfo('template_url'); ?>/images/icons/linkedin.png" alt="">
@@ -16,7 +16,7 @@
                             </a>
                         </div>
                 </div>
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-sm-8">
                     <h1 class="footer-title text-uppercase"><?php echo get_bloginfo( 'name' ); ?></h1>
                 </div>
             </div>
