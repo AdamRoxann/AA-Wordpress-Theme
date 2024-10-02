@@ -21,6 +21,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-between align-items-center">
+                <div class="col">
                         <?php
                             wp_nav_menu(
                             array(
@@ -29,6 +30,7 @@
                         )
                     );
                 ?>
+                </div>
             </div>
         </div>
     </footer>
