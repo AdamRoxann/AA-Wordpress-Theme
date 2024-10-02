@@ -34,6 +34,7 @@ register_nav_menus(
     array(
         'top-menu' => 'Top Menu',
         'mobile-menu' => 'Mobile Menu',
+        'footer-menu' => 'Footer Menu',
     )
 );
 
@@ -60,6 +61,13 @@ function add_additional_class_on_a($classes, $item, $args) {
         if (in_array('current-menu-item', $item->classes) || in_array('current-page-item', $item->classes)) {
             $atts['class'] .= ' active'; // Add 'active' class if it's the current page
         }
+    }
+    if('footer-menu-1' === $args->theme_location) {
+        if (empty($atts['href'])) {
+            $atts['href'] = !empty($item->url) ? $item->url : '#';
+        }
+        
+        $atts['class'] = 'nav-link footer-menu';
     }
     return $atts;
 }
