@@ -220,13 +220,16 @@
     }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 576px) {
     .footer-first {
         flex-direction: column-reverse;
     }
     .footer-title {
         margin-bottom: 8px;
     }
+}
+
+@media screen and (max-width: 490px) { 
     .footer-bottom-menu {
         display: flex;
         justify-content: center;
