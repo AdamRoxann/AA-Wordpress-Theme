@@ -6,6 +6,10 @@
     border: none;
   }
 
+  .custom-rounded img {
+    border-radius: 0.5rem;
+  }
+
   .navbar-toggler-icon {
     background-image: none!important;
     /* background-color: var(--bs-gray-800); */
