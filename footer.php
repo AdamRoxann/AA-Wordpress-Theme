@@ -17,7 +17,7 @@
                         </div>
                 </div>
                 <div class="col-12 col-sm-8">
-                    <h1 class="footer-title text-uppercase"><?php echo get_bloginfo( 'name' ); ?></h1>
+                    <h1 class="footer-title text-uppercase font-semibold"><?php echo get_bloginfo( 'name' ); ?></h1>
                 </div>
             </div>
             <div class="text-center footer-bottom-menu">
