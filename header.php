@@ -18,14 +18,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <?php
-            wp_nav_menu(
+            if(is_page(6)){
+              wp_nav_menu(
+                  array(
+                      'theme_location' => 'top-menu',
+                      'container' => 'ul',
+                      'menu_class' => 'navbar-nav w-100 justify-content-between align-items-center',
+                      // 'add_li_class' => 'nav-item'
+                  )
+              );
+            } else {
+              wp_nav_menu(
                 array(
-                    'theme_location' => 'top-menu',
+                    'theme_location' => 'top-menu-other',
                     'container' => 'ul',
                     'menu_class' => 'navbar-nav w-100 justify-content-between align-items-center',
                     // 'add_li_class' => 'nav-item'
                 )
             );
+            }
         ?>
       <!-- <ul class="navbar-nav">
         

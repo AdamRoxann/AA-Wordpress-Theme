@@ -33,6 +33,7 @@ add_theme_support('post-thumbnails');
 register_nav_menus(
     array(
         'top-menu' => 'Top Menu',
+        'top-menu-other' => 'Top Menu Other',
         'mobile-menu' => 'Mobile Menu',
         'footer-menu' => 'Footer Menu',
     )
@@ -45,6 +46,9 @@ function add_additional_class_on_li($classes, $item, $args) {
     if('top-menu' === $args->theme_location) {
         $classes[] = 'nav-item';
     }
+    if('top-menu-other' === $args->theme_location) {
+        $classes[] = 'nav-item';
+    }
     if('footer-menu' === $args->theme_location) {
         $classes[] = 'nav-item d-inline-block';
     }
@@ -54,6 +58,18 @@ add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
 
 function add_additional_class_on_a($classes, $item, $args) {
     if('top-menu' === $args->theme_location) {
+        if (empty($atts['href'])) {
+            $atts['href'] = !empty($item->url) ? $item->url : '#';
+        }
+        
+        $atts['class'] = 'nav-link btn btn-navbar text-white px-3 rounded-pill text-uppercase';
+        
+        // Check if the menu item is the current page and add the 'active' class
+        if (in_array('current-menu-item', $item->classes) || in_array('current-page-item', $item->classes)) {
+            $atts['class'] .= ' active'; // Add 'active' class if it's the current page
+        }
+    }
+    if('top-menu-other' === $args->theme_location) {
         if (empty($atts['href'])) {
             $atts['href'] = !empty($item->url) ? $item->url : '#';
         }
