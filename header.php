@@ -8,7 +8,7 @@
 
     <?php wp_head(); ?>
 </head>
-<body class="background d-flex flex-column h-100">
+<body class="background d-flex flex-column h-100 default-font">
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container">
