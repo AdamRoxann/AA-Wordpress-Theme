@@ -9,7 +9,7 @@
                                 <img width="36" class="linked-footer" src="<?php bloginfo('template_url'); ?>/images/icons/linkedin2.png" alt="">
                             </a>
                             <a class="text-decoration-none" href="#" target="_blank">
-                                <img width="36" class="insta-footer mx-3" src="<?php bloginfo('template_url'); ?>/images/icons/instagram2.png" alt="">
+                                <img width="36" class="insta-footer mx-3" src="<?php bloginfo('template_url'); ?>/images/icons/instagram3.png" alt="">
                             </a>
                             <a class=" text-decoration-none" href="#" target="_blank">
                                 <img width="36" class="youtube-footer" src="<?php bloginfo('template_url'); ?>/images/icons/youtube2.png" alt="">
