@@ -14,7 +14,7 @@
                 </div>
                 <?php endif; ?>
                 <div class="col">
-                    <h2 class=""><?php the_title(); ?></h2>
+                    <h2 class="font-bold"><?php the_title(); ?></h2>
                     <p><?php echo get_the_date();?> By <?php echo $fname; ?> <?php echo $lname; ?></p>
                     <?php the_excerpt(); ?>
                     <a class="btn btn-primary" href="<?php the_permalink(); ?>">Read More</a>
