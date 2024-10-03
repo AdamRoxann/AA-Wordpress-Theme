@@ -50,6 +50,7 @@
 
 .btn-primary {
     background-color: #fff !important;
+    border: none !important;
     color: #4D99B7 !important;
     padding-top: 0px;
     padding-bottom: 0px;
