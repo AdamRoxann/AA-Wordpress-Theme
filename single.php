@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container primary-color">
     <?php if(has_post_thumbnail()): ?>
         <img class="img-fluid object-cover mb-4" src="<?php the_post_thumbnail_url();?>" alt="<?php the_title(); ?>">
     <?php endif; ?>
