@@ -1,16 +1,16 @@
 <?php if(have_posts() ): while( have_posts() ): the_post(); ?>
 
-    <h1 class="font-bold"><?php the_title(); ?></h1>
+    <h1 class="font-bold primary-color"><?php the_title(); ?></h1>
 
     <?php
     $fname = get_the_author_meta('first_name');
     $lname = get_the_author_meta('last_name');
     ?> 
-    <p><?php echo get_the_date();?> By <?php echo $fname; ?> <?php echo $lname; ?></p>
+    <p class="primary-color"><?php echo get_the_date();?> By <?php echo $fname; ?> <?php echo $lname; ?></p>
 
     <?php the_content(); ?>
 
-    <div class="d-flex">
+    <div class="d-flex primary-color">
     <p>Related Tags & Categories :</p>
     <?php
     $categories = get_the_category();
