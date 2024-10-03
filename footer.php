@@ -26,7 +26,7 @@
                         array(
                         'theme_location' => 'footer-menu',
                         'container' => 'ul',
-                        'menu_class' => 'list-unstyled d-flex justify-content-evenly',
+                        'menu_class' => 'list-unstyled d-flex justify-content-evenly font-semibold',
                         )
                     );
                     ?>
