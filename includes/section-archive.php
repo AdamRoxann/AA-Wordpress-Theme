@@ -16,9 +16,9 @@
                 </div>
                 <?php endif; ?>
                 <div class="col remove-link-style-normal">
-                    <a href="<?php the_permalink(); ?>"><h2 class="font-bold"><?php the_title(); ?></h2></a>
-                    <a href="<?php the_permalink(); ?>"><p><?php echo get_the_date();?> By <?php echo $fname; ?> <?php echo $lname; ?></p></a>
-                    <a class="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
+                    <a class="text-white" href="<?php the_permalink(); ?>"><h2 class="font-bold"><?php the_title(); ?></h2></a>
+                    <a class="text-white"href="<?php the_permalink(); ?>"><p><?php echo get_the_date();?> By <?php echo $fname; ?> <?php echo $lname; ?></p></a>
+                    <a class="text-white" href="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
                     <a class="btn btn-primary font-semibold py-2" href="<?php the_permalink(); ?>">Read More</a>
                 </div>
             </div>
