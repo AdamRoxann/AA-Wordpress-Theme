@@ -213,6 +213,13 @@
         background-color: #4D99B7;
         border-radius: 12px !important;
     }
+    #menu-main-menu-other {
+        font-family: 'Quicksand-SemiBold';
+        font-size: 16px !important;
+        align-items: normal !important;
+        background-color: #4D99B7;
+        border-radius: 12px !important;
+    }
 
     .bottom-excerpt {
         margin-bottom: 1.5rem !important;
@@ -374,6 +381,10 @@
         justify-content: center;
     }
     #menu-footer-menu {
+        display: block !important;
+        max-width: 85%;
+    }
+    #menu-footer-menu-other {
         display: block !important;
         max-width: 85%;
     }
