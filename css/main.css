@@ -49,7 +49,8 @@
 }
 
 .btn-primary {
-    background-color: #4D99B7 !important;
+    background-color: #fff !important;
+    color: #4D99B7 !important;
     padding-top: 0px;
     padding-bottom: 0px;
 }
