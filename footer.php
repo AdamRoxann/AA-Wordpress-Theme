@@ -22,13 +22,23 @@
             </div>
             <div class="text-center footer-bottom-menu">
                     <?php
+                        if(is_page(8)) {
                         wp_nav_menu(
-                        array(
-                        'theme_location' => 'footer-menu',
-                        'container' => 'ul',
-                        'menu_class' => 'list-unstyled d-flex justify-content-evenly font-semibold',
-                        )
-                    );
+                            array(
+                            'theme_location' => 'footer-menu',
+                            'container' => 'ul',
+                            'menu_class' => 'list-unstyled d-flex justify-content-evenly font-semibold',
+                            )
+                        );
+                        } else {
+                            wp_nav_menu(
+                                array(
+                                'theme_location' => 'footer-menu-other',
+                                'container' => 'ul',
+                                'menu_class' => 'list-unstyled d-flex justify-content-evenly font-semibold',
+                                )
+                            );
+                        }
                     ?>
             </div>
             </div>

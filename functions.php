@@ -35,6 +35,7 @@ register_nav_menus(
         'top-menu' => 'Top Menu',
         'top-menu-other' => 'Top Menu Other',
         'mobile-menu' => 'Mobile Menu',
+        'mobile-menu-other' => 'Mobile Menu Other',
         'footer-menu' => 'Footer Menu',
     )
 );
@@ -50,6 +51,9 @@ function add_additional_class_on_li($classes, $item, $args) {
         $classes[] = 'nav-item';
     }
     if('footer-menu' === $args->theme_location) {
+        $classes[] = 'nav-item d-inline-block';
+    }
+    if('footer-menu-other' === $args->theme_location) {
         $classes[] = 'nav-item d-inline-block';
     }
     return $classes;
@@ -82,6 +86,13 @@ function add_additional_class_on_a($classes, $item, $args) {
         }
     }
     if('footer-menu' === $args->theme_location) {
+        if (empty($atts['href'])) {
+            $atts['href'] = !empty($item->url) ? $item->url : '#';
+        }
+        
+        $atts['class'] = 'nav-link footer-menu';
+    }
+    if('footer-menu-other' === $args->theme_location) {
         if (empty($atts['href'])) {
             $atts['href'] = !empty($item->url) ? $item->url : '#';
         }
