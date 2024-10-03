@@ -15,7 +15,7 @@
                     </a>
                 </div>
                 <?php endif; ?>
-                <div class="col">
+                <div class="col remove-link-style">
                     <a href="<?php the_permalink(); ?>"><h2 class="font-bold"><?php the_title(); ?></h2></a>
                     <a href="<?php the_permalink(); ?>"><p><?php echo get_the_date();?> By <?php echo $fname; ?> <?php echo $lname; ?></p></a>
                     <a class="<?php the_permalink(); ?>"><?php the_excerpt(); ?></a>
