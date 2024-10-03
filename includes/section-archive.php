@@ -4,7 +4,7 @@
     $fname = get_the_author_meta('first_name');
     $lname = get_the_author_meta('last_name');
     ?> 
-    <div class="card mb-2 bg-dark text-white">
+    <div class="card mb-2 primary-color">
         <div class="card-body">
             
             <div class="row justify-content-center align-items-center">

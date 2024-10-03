@@ -1,6 +1,6 @@
 
 
-    <footer class="footer mt-auto py-3 primary-background">
+    <footer class="footer mt-auto py-3 primary-background" id="footer">
         <div class="container">
             <div class="row footer-first justify-content-center align-items-center text-center mb-4">
                 <div class="col-12 col-sm-4">
