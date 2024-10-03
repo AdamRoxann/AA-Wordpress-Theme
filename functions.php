@@ -35,8 +35,8 @@ register_nav_menus(
         'top-menu' => 'Top Menu',
         'top-menu-other' => 'Top Menu Other',
         'mobile-menu' => 'Mobile Menu',
-        'mobile-menu-other' => 'Mobile Menu Other',
         'footer-menu' => 'Footer Menu',
+        'footer-menu-other' => 'Footer Menu Other',
     )
 );
 
