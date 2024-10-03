@@ -18,7 +18,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <?php
-            if(is_page(6)){
+            if(is_page(8)){
               wp_nav_menu(
                   array(
                       'theme_location' => 'top-menu',
