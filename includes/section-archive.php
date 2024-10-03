@@ -10,14 +10,16 @@
             <div class="row justify-content-center align-items-center">
                 <?php if(has_post_thumbnail()): ?>
                 <div class="col-lg-2 col-md-4 col-sm-12">
+                    <a href="<?php the_permalink(); ?>">
                         <img class="img-thumbnail mb-3" src="<?php the_post_thumbnail_url();?>" alt="<?php the_title(); ?>">
+                    </a>
                 </div>
                 <?php endif; ?>
                 <div class="col">
                     <h2 class="font-bold"><?php the_title(); ?></h2>
                     <p><?php echo get_the_date();?> By <?php echo $fname; ?> <?php echo $lname; ?></p>
                     <?php the_excerpt(); ?>
-                    <a class="btn btn-primary font-semibold" href="<?php the_permalink(); ?>">Read More</a>
+                    <a class="btn btn-primary font-semibold py-2" href="<?php the_permalink(); ?>">Read More</a>
                 </div>
             </div>
         </div>
