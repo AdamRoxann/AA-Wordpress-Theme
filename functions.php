@@ -58,7 +58,7 @@ function add_additional_class_on_a($classes, $item, $args) {
             $atts['href'] = !empty($item->url) ? $item->url : '#';
         }
         
-        $atts['class'] = 'nav-link btn btn-primary text-white px-3 rounded-pill text-uppercase';
+        $atts['class'] = 'nav-link btn btn-navbar text-white px-3 rounded-pill text-uppercase';
         
         // Check if the menu item is the current page and add the 'active' class
         if (in_array('current-menu-item', $item->classes) || in_array('current-page-item', $item->classes)) {
