@@ -87,9 +87,24 @@
 .title-intro {
   font-size: 2.5rem;
   font-weight: bold;
+  color: white;
 }
 
 .description-intro {
   font-size: 1rem;
-  color: #555;
+  color: white;
+}
+
+/* Background color for the text section */
+.text-background {
+  background-color: #5baac0; /* Adjust this to match the blue background in your image */
+  border-radius: 8px;
+  padding: 30px;
+  color: white;
+  position: relative;
+}
+
+.text-background .btn {
+  background-color: #333; /* Optional custom button color */
+  border: none;
 }
