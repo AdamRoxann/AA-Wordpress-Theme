@@ -302,6 +302,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    .max-height img {
+        height: 400px !important;
+        object-fit: cover;
+        width: 100% !important;
+    }
+
     .article-desc {
         font-size: 14px !important;
     }
@@ -386,6 +392,12 @@
 }
 
 @media screen and (max-width: 490px) { 
+    .max-height img {
+        height: 240px !important;
+        object-fit: cover;
+        width: 100% !important;
+    }
+
     .footer-bottom-menu {
         display: flex;
         justify-content: center;
@@ -408,6 +420,12 @@
 }
 
 @media screen and (max-width: 425px) {
+    .max-height img {
+        height: 210px !important;
+        object-fit: cover;
+        width: 100% !important;
+    }
+    
     .article-desc {
         font-size: 12px !important;
     }
