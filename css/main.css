@@ -190,6 +190,16 @@
     background: #4D99B7;
 }
 
+@media screen and (max-width: 1400px) {
+    .headlines-desc {
+        font-size: 17px !important;
+    }
+    
+    .headlines-title {
+        font-size: 26px !important; 
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .navbar-nav {
         font-size: 9px !important;
@@ -197,16 +207,6 @@
     .navbar-nav a {
         padding-top: 5px;
         padding-bottom: 5px;
-    }
-}
-
-@media screen and (max-width: 1026px) {
-    .headlines-desc {
-        font-size: 17px !important;
-    }
-    
-    .headlines-title {
-        font-size: 26px !important; 
     }
 }
 
