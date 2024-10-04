@@ -54,6 +54,7 @@
 
 .max-height img {
     height: 560px !important;
+    object-fit: cover;
 }
 
 .btn-primary {
