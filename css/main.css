@@ -303,7 +303,7 @@
 
 @media screen and (max-width: 768px) {
     .max-height img {
-        height: 400px !important;
+        max-height: 400px !important;
         object-fit: cover;
         width: 100% !important;
     }
@@ -393,7 +393,8 @@
 
 @media screen and (max-width: 490px) { 
     .max-height img {
-        height: 240px !important;
+        max-width: none !important;
+        height: auto !important;
         object-fit: cover;
         width: 100% !important;
     }
@@ -421,7 +422,8 @@
 
 @media screen and (max-width: 425px) {
     .max-height img {
-        height: 210px !important;
+        max-height: none !important;
+        height: auto;
         object-fit: cover;
         width: 100% !important;
     }
