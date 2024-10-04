@@ -392,6 +392,9 @@
 }
 
 @media screen and (max-width: 490px) { 
+    .max-height {
+        max-height: none !important;
+    }
     .max-height img {
         max-width: none !important;
         height: auto !important;
@@ -421,6 +424,9 @@
 }
 
 @media screen and (max-width: 425px) {
+    .max-height {
+        max-height: none !important;
+    }
     .max-height img {
         max-height: none !important;
         height: auto;
