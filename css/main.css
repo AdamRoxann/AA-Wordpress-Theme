@@ -192,11 +192,11 @@
 
 @media screen and (max-width: 1400px) {
     .headlines-desc {
-        font-size: 17px !important;
+        font-size: 20px !important;
     }
     
     .headlines-title {
-        font-size: 26px !important; 
+        font-size: 32px !important; 
     }
 }
 
