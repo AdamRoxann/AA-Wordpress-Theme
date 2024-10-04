@@ -116,7 +116,7 @@
 }
 
 .art-desc {
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .art-title {
@@ -133,7 +133,7 @@
 }
 
 .headlines-desc {
-    font-size: 26px;
+    font-size: 25px;
 }
 
 .headlines-title {
@@ -197,6 +197,16 @@
     .navbar-nav a {
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    .headlines-desc {
+        font-size: 17px !important;
+    }
+    
+    .headlines-title {
+        font-size: 26px !important; 
     }
 }
 
