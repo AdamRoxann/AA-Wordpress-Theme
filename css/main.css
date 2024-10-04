@@ -45,7 +45,7 @@
 }
 
 .primary-background {
-    background-color: #4D99B7;
+    background-color: #f1f6f8;
 }
 
 .max-height {
@@ -53,7 +53,7 @@
 }
 
 .max-height img {
-    max-height: 560px !important;
+    height: 560px !important;
 }
 
 .btn-primary {
