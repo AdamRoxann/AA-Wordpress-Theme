@@ -6,13 +6,13 @@
                 <div class="col-12 col-sm-4">
                     <div class="sosmed-mobile">
                             <a class="text-decoration-none" href="#" target="_blank">
-                                <img width="36" class="linked-footer" src="<?php bloginfo('template_url'); ?>/images/icons/linkedin-new.png" alt="">
+                                <img width="36" class="linked-footer" src="<?php bloginfo('template_url'); ?>/images/icons/linkedin-fix.png" alt="">
                             </a>
                             <a class="text-decoration-none" href="#" target="_blank">
-                                <img width="36" class="insta-footer mx-3" src="<?php bloginfo('template_url'); ?>/images/icons/instagram-new.png" alt="">
+                                <img width="36" class="insta-footer mx-3" src="<?php bloginfo('template_url'); ?>/images/icons/instagram-fix.png" alt="">
                             </a>
                             <a class=" text-decoration-none" href="#" target="_blank">
-                                <img width="36" class="youtube-footer" src="<?php bloginfo('template_url'); ?>/images/icons/youtube-new.png" alt="">
+                                <img width="36" class="youtube-footer" src="<?php bloginfo('template_url'); ?>/images/icons/youtube-fix.png" alt="">
                             </a>
                         </div>
                 </div>
