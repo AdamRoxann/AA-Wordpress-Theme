@@ -77,6 +77,15 @@
     color: #fff;
 }
 
+.limit-lines-news {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2;
+    -webkit-box-orient: vertical;
+ }
+
 .navbar.bg-body-tertiary {
     background-color: transparent !important;
 }
@@ -490,15 +499,6 @@
         margin-bottom: 6px !important;
         font-size: 10px;
     }
-    .limit-lines-news {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 3; /* number of lines to show */
-                line-clamp: 3;
-        -webkit-box-orient: vertical;
-     }
-     
 }
 
 @media screen and (max-width: 490px) { 
