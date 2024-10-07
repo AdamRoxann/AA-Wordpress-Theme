@@ -391,6 +391,10 @@
     .other-news-desc {
         font-size: 12px !important;
     }
+    .other-news-desc {
+        line-height: 1.2 !important;
+        padding: 2px 10px;
+    }
     .max-height {
         max-height: none !important;
     }
