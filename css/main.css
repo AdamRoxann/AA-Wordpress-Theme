@@ -89,15 +89,15 @@
     font-size: 28px;
 }
 
+.by-aa {
+    font-size: 28px;
+}
+
 .title-news {
     font-size: 58px;
 }
 
 .desc-news {
-    font-size: 28px;
-}
-
-.by-aa {
     font-size: 28px;
 }
 
@@ -226,16 +226,16 @@
     .date-news {
         font-size: 24px !important;
     }
+
+    .by-aa {
+        font-size: 24px !important;
+    }
     
     .title-news {
         font-size: 48px !important;
     }
     
     .desc-news {
-        font-size: 24px !important;
-    }
-    
-    .by-aa {
         font-size: 24px !important;
     }
     
@@ -329,6 +329,10 @@
     .date-news {
         font-size: 18px !important;
     }
+
+    .by-aa {
+        font-size: 18px !important;
+    }
     
     .title-news {
         font-size: 36px !important;
@@ -337,11 +341,6 @@
     .desc-news {
         font-size: 18px !important;
     }
-    
-    .by-aa {
-        font-size: 18px !important;
-    }
-    
     
     .achievement-header {
         font-size: 36px !important;
@@ -394,16 +393,16 @@
     .date-news {
         font-size: 18px !important;
     }
+
+    .by-aa {
+        font-size: 18px !important;
+    }
     
     .title-news {
         font-size: 28px !important;
     }
     
     .desc-news {
-        font-size: 18px !important;
-    }
-
-    .by-aa {
         font-size: 18px !important;
     }
     
@@ -547,16 +546,16 @@
     .date-news {
         font-size: 12px !important;
     }
+
+    .by-aa {
+        font-size: 12px !important;
+    }
     
     .title-news {
         font-size: 20px !important;
     }
     
     .desc-news {
-        font-size: 12px !important;
-    }
-
-    .by-aa {
         font-size: 12px !important;
     }
     
