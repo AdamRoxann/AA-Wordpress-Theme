@@ -162,15 +162,15 @@
 }
 
 .linked-footer {
-    width: 40px !important;
+    width: 38px !important;
 }
 
 .insta-footer {
-    width: 40px !important;
+    width: 38px !important;
 }
 
 .youtube-footer {
-    width: 40px !important;
+    width: 38px !important;
 }
 
 .footer-menu {
@@ -362,6 +362,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .other-news-desc {
+        font-size: 12px !important;
+    }
     .max-height {
         max-height: none !important;
     }
@@ -461,6 +464,18 @@
     .footer-title {
         margin-bottom: 8px !important;
     }
+    .other-news-desc {
+        font-size: 10px;
+    }
+    .limit-lines-news {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4; /* number of lines to show */
+                line-clamp: 4;
+        -webkit-box-orient: vertical;
+     }
+     
 }
 
 @media screen and (max-width: 490px) { 
