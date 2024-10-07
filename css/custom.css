@@ -10,6 +10,10 @@
     border-radius: 0.5rem;
   }
 
+  .news-rounded img {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+
   .navbar-toggler-icon {
     background-image: none!important;
     /* background-color: var(--bs-gray-800); */
