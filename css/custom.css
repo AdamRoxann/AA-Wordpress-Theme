@@ -14,6 +14,10 @@
     border-radius: 0.5rem 0.5rem 0rem 0rem;
   }
 
+  .news-background {
+    background-color: rgba(77, 153, 183, 0.7);
+  }
+
   .navbar-toggler-icon {
     background-image: none!important;
     /* background-color: var(--bs-gray-800); */
