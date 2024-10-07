@@ -16,6 +16,7 @@
 
   .news-background {
     background-color: rgba(77, 153, 183, 0.7);
+    border-radius: 0.5rem;
   }
 
   .navbar-toggler-icon {
