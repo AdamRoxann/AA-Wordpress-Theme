@@ -465,6 +465,8 @@
         margin-bottom: 8px !important;
     }
     .other-news-desc {
+        margin-top: 6px !important;
+        margin-bottom: 6px !important;
         font-size: 10px;
     }
     .limit-lines-news {
