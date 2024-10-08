@@ -388,6 +388,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .bond {
+        font-size: 8px !important;
+    }
+    
     .other-news-desc {
         font-size: 12px !important;
     }
