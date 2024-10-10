@@ -119,11 +119,11 @@
 }
 
 .custom-learnmore .wp-block-post-excerpt__more-link {
-  padding: 8px 8px;
+  padding: 6px 10px;
   margin-top: 6px;
   background-color: #4D99B7 !important;
   border: none !important;
   color: #fff !important;
-  border-radius: 12px;
+  border-radius: 6px;
   text-decoration: none !important;
 }
