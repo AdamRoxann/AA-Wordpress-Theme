@@ -192,9 +192,9 @@
 }
 
 .footer-menu {
-    font-size: 12px !important;
+    font-size: 14px !important;
     font-weight: 600;
-    padding: 0 8px !important;
+    padding: 0 6px !important;
 }
 
 .article-pagination .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
