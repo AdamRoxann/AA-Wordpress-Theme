@@ -18,28 +18,28 @@
                 </div>
                 <div class="col-12 col-sm-8">
                     <h1 class="footer-title text-uppercase font-semibold"><?php echo get_bloginfo( 'name' ); ?></h1>
-                </div>
-            </div>
-            <div class="text-center footer-bottom-menu">
-                    <?php
-                        if(is_page(8)) {
-                        wp_nav_menu(
-                            array(
-                            'theme_location' => 'footer-menu',
-                            'container' => 'ul',
-                            'menu_class' => 'list-unstyled d-flex justify-content-evenly font-semibold',
-                            )
-                        );
-                        } else {
+                    <div class="text-center footer-bottom-menu">
+                        <?php
+                            if(is_page(8)) {
                             wp_nav_menu(
                                 array(
-                                'theme_location' => 'footer-menu-other',
+                                'theme_location' => 'footer-menu',
                                 'container' => 'ul',
                                 'menu_class' => 'list-unstyled d-flex justify-content-evenly font-semibold',
                                 )
                             );
-                        }
-                    ?>
+                            } else {
+                                wp_nav_menu(
+                                    array(
+                                    'theme_location' => 'footer-menu-other',
+                                    'container' => 'ul',
+                                    'menu_class' => 'list-unstyled d-flex justify-content-evenly font-semibold',
+                                    )
+                                );
+                            }
+                        ?>
+                    </div>
+                </div>
             </div>
             </div>
         </div>
