@@ -23,7 +23,7 @@
                   array(
                       'theme_location' => 'top-menu',
                       'container' => 'ul',
-                      'menu_class' => 'navbar-nav w-100 justify-content-between align-items-center',
+                      'menu_class' => 'navbar-nav w-100 justify-content-end align-items-center gap-3',
                       // 'add_li_class' => 'nav-item'
                   )
               );
