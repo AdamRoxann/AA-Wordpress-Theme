@@ -194,7 +194,7 @@
 .footer-menu {
     font-size: 24px !important;
     font-weight: 600;
-    padding: 0 12px;
+    padding: 0 12px !important;
 }
 
 .article-pagination .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
