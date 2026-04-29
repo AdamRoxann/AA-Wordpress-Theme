@@ -2,7 +2,7 @@
 
     <footer class="footer mt-auto py-3 primary-background" id="footer">
         <div class="container">
-            <div class="row footer-first justify-content-center align-items-center text-center mb-4">
+            <div class="row footer-first justify-content-center align-items-start text-center mb-4">
                 <div class="col-12 col-sm-4">
                     <div class="sosmed-mobile">
                             <a class="text-decoration-none" href="#" target="_blank">
@@ -25,7 +25,7 @@
                                 array(
                                 'theme_location' => 'footer-menu',
                                 'container' => 'ul',
-                                'menu_class' => 'list-unstyled d-flex justify-content-evenly font-semibold',
+                                'menu_class' => 'list-unstyled font-semibold',
                                 )
                             );
                             } else {
